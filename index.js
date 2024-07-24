@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         doneBtn.addEventListener('click', () => {
             li.style.color = 'green';
             doneBtn.style.display='none'
+            deleteBtn.style.display='none'
         });
 
         updateEmptyMessage();
