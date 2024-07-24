@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📌TO-DO-TASK🗒️</title>
+    <title>📌TO-DO-TASK</title>
     <style>
         body {
             background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='21' height='20' patternTransform='scale(1) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M3.25 10h13.5M10 3.25v13.5' transform='translate(0.5,0)' stroke-linecap='square' stroke-width='0.5' stroke='hsla(258.5,59.4%,59.4%,1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-2,0)' fill='url(%23a)'/></svg>");
@@ -29,6 +29,7 @@
         button {
             background-color: rgb(84, 81, 81);
             color: antiquewhite;
+            margin-left: 10px;
         }
         button:hover {
             background-color: rgb(18, 18, 18);
@@ -78,13 +79,13 @@
     </style>
 </head>
 <body>
-    <h1>TO-DO-TASK </h1>
+    <h1>📌TO-DO-TASK🗒️ </h1>
     <div id="current-date"></div>
     <div class="addlist">
         <h2>Add List</h2>
         <form id="taskform">
             <input type="text" placeholder="Enter your Tasks">
-            <button id="submit">Submit</button>
+            <button id="submit" class="btn-12">Submit</button>
         </form> 
         <div class="lists">
                 <h3 id="empty"> >>  No list yet  <<</h3>
